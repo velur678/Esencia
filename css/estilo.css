@@ -1,0 +1,59 @@
+body{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/control/564x/d4/25/cc/d425cc98f3bd999a8722ac8e890c030a.jpg);
+}
+
+.Formulario{
+    width: 550px;
+    height:1050px;
+    background:rgb(212, 170, 78) ;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+
+.input1{
+    width: 95%;
+    border: 3px solid #336;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+font-weight: bold;     
+}
+
+
+.input2{
+    width: 95%;
+    border: 3px solid #336;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+font-weight: bold;     
+}
+
+.input3{
+    width: 95%;
+    border: 3px solid #336;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+font-weight: bold;     
+}
+
+.input4{
+    width: 95%;
+    border: 3px solid #336;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+font-weight: bold;     
+}
+
+.button {
+    width: 40%;
+    height:50px ;
+   background:black ;
+   color: white;
+text-decoration: none;
+
+}
+
