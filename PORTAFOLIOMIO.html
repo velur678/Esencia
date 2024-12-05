@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title> PORTAFOLIO </title>
+
+        <link rel="stylesheet" href="css/dis.css">
+     
+</head>
+
+
+
+<!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="video/Bannerme.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h1> ¿Quién soy?</h1>
+  <p> Mi nombre es Didier, soy un joven de México el cual esta fascinado por el mundo del diseño, dibujo y animacion, Mi sueño es convertirme en un animador de alta calidad, Me encanta dibujar y sobre todo una de mis cosas favoritas es combinar la musica con la animacion, parte de mi sueño es ser un artista musical e ilustrador independiente que pueda hacear sus propias canciones con un video animado que lo acompañe.</p>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <button id="myBtn" onclick="myFunction()">Pausar</button>
+
+<a href="index.html" class="btn-shine">Regresar</a>
+
+</div>
+
+
+
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+</body>
+</html>
